@@ -32,8 +32,7 @@ public class GraphMap extends Mapper<Text, Text, Text, Text>
 		} catch(Exception e) {
 			depth=-1;
 		}
-		if(depth==-1) // Invalid.
-			return;
+
 		if(colour.equals(GREY))
 		{
 			for(int i=0; i<neighbours.length; ++i)
