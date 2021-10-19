@@ -4,7 +4,7 @@
   --
   TP1: exemple de programme Hadoop - compteur d'occurences de mots.
   --
-  WGraphReduce.java: classe REDUCE.
+  .java: classe REDUCE.
 */
 package org.mbds.hadoop.tp2;
 
@@ -34,7 +34,7 @@ public class GraphReduce extends Reducer<Text, Text, Text, Text>
 				continue;
 			neighbours=parts[0];
 			colour=parts[1];
-			ry {
+			try {
 			depth=Integer.parseInt(parts[2]);
 		} catch(Exception e) {
 			depth=-2;
