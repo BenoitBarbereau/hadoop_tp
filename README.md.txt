@@ -36,3 +36,11 @@ SUPPR code GraphMap
 
 
 ---> RESULT
+
+2021-10-19 15:58:38,631 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+1       2,5|NOIR|0
+2       3,4|NOIR|1
+3       6|NOIR|2
+4       |NOIR|2
+5       6|NOIR|1
+6       |NOIR|3
