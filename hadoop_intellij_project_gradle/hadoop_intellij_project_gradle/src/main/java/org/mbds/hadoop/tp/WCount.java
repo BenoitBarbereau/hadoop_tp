@@ -4,7 +4,7 @@
   --
   TP1: exemple de programme Hadoop - compteur d'occurences de mots.
   --
-  WGraphMap.java: classe driver (contient le main du programme).
+  GraphMap.java: classe driver (contient le main du programme).
 */
 package org.mbds.hadoop.tp;
 

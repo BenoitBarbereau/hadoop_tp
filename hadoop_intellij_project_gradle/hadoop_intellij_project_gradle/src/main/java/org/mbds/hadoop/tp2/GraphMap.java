@@ -4,7 +4,7 @@
   --
   TP1: exemple de programme Hadoop - compteur d'occurences de mots.
   --
-  WGraphMap.java: classe MAP.
+  GraphMap.java: classe MAP.
 */
 package org.mbds.hadoop.tp2;
 

@@ -4,13 +4,16 @@
   --
   TP1: exemple de programme Hadoop - compteur d'occurences de mots.
   --
-  WGraphMap.java: classe driver (contient le main du programme).
+  GraphMap.java: classe driver (contient le main du programme).
 */
 package org.mbds.hadoop.tp2;
 
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.mapreduce.Counter;
+import org.apache.hadoop.mapreduce.Counters;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.util.GenericOptionsParser;
