@@ -4,7 +4,7 @@
   --
   TP1: exemple de programme Hadoop - compteur d'occurences de mots.
   --
-  WCountReduce.java: classe REDUCE.
+  WGraphReduce.java: classe REDUCE.
 */
 package org.mbds.hadoop.tp;
 
