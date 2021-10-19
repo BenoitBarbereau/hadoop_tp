@@ -46,14 +46,14 @@ public class GraphReduce extends Reducer<Text, Text, Text, Text>
 				new_depth=depth;
 			if(neighbours.length()>new_neighbours.length())
 				new_neighbours=neighbours;
-			if((new_color.equals("")) || ((new_color.equals("WHITE") && (colour.equals("GREY") ||
-					colour.equals("BLACK"))) ||
-					(new_color.equals("GREY") && (colour.equals("BLACK")))))
+			if((new_color.equals("")) || ((new_color.equals("BLANC") && (colour.equals("GRIS") ||
+					colour.equals("NOIR"))) ||
+					(new_color.equals("GRIS") && (colour.equals("NOIR")))))
 			{
 				new_color=colour;
 			}
 		}
-		if(!new_color.equals("BLACK"))
+		if(!new_color.equals("NOIR"))
 			context.getCounter(Graph.GRAPH_COUNTERS.NB_NODES_UNFINISHED).increment(1);
 		context.write(key, new Text(new_neighbours+"|"+new_color+"|"+new_depth));
 	}

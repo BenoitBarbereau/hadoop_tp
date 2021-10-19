@@ -18,7 +18,7 @@ import java.io.IOException;
 
 public class GraphMap extends Mapper<Text, Text, Text, Text>
 {
-	private static final String GREY="GREY";
+	private static final String GREY="GRIS";
 	protected void map(Text key, Text node, Context context) throws IOException, InterruptedException
 	{
 		String[] parts=node.toString().split("\\|");
@@ -42,7 +42,7 @@ public class GraphMap extends Mapper<Text, Text, Text, Text>
 					continue;
 				context.write(new Text(neighbours[i]), new Text("|"+GREY+"|"+Integer.toString(depth+1)));
 			}
-			context.write(key, new Text(parts[0]+"|BLACK|"+Integer.toString(depth)));
+			context.write(key, new Text(parts[0]+"|NOIR|"+Integer.toString(depth)));
 		}
 		else
 			context.write(key, node);

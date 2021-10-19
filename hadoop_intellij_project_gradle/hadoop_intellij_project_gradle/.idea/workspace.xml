@@ -10,21 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d3adc-1dbd-42ed-83f6-bb512d3845ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp/WCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp/WCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp/WCountMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp/WCountMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp/WCountReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp/WCountReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/WGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/WGraphMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/WGraphReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphReduce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
