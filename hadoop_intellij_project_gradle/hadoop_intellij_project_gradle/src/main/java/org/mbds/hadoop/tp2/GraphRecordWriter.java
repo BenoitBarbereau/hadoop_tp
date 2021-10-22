@@ -6,7 +6,8 @@
   --
   GraphRecordWriter.java: recordwriter spécifique (écrit un GraphNodeWritable).
 */
-package org.mbds.hadoop.graph;
+package org.mbds.hadoop.tp2;
+
 
 import org.apache.hadoop.io.Text;
 import java.util.List;

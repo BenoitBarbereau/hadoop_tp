@@ -10,9 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a97d3adc-1dbd-42ed-83f6-bb512d3845ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphNodeWritable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphInputFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphInputFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphOutputFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphOutputFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphRecordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphRecordReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphRecordWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mbds/hadoop/tp2/GraphRecordWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +64,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -132,5 +149,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

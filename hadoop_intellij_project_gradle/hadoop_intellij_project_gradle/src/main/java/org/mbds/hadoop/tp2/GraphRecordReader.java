@@ -6,7 +6,8 @@
   --
   GraphRecordReader.java: RecordReader hadoop custo (lit un GraphNodeWritable à partir du format textuel).
 */
-package org.mbds.hadoop.graph;
+package org.mbds.hadoop.tp2;
+
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.InputSplit;
